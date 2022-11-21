@@ -15,8 +15,8 @@ body {
 
 button {
     background-color: #fff;
-    color: #1D4598;
-    border: 2px solid #1D4598;
+    color: #BA2126;
+    border: 2px solid #BA2126;
     padding: 0.3rem 0.6rem;
     font-size: 1rem;
     cursor: pointer;
@@ -27,7 +27,7 @@ button {
 }
 
 button:hover {
-    background-color: #1D4598;
+    background-color: #BA2126;
     color: #fff;
 }
 
@@ -39,6 +39,8 @@ button:hover i {
 
 input, select {
     padding: 0.25rem 0.5rem;
+    border: 1px solid #333;
+    outline: none;
 }
 
 .hide {
@@ -48,8 +50,8 @@ input, select {
 /* Todo Header */
 .todo-container {
     max-width: 450px;
-    margin: 10rem auto;
-    background-color: #fff;
+    margin: 15rem auto;
+    background-color: rgba(255,255,255,0.7);
     padding: 1.5rem;
     border-radius: 15px;
 }
@@ -57,13 +59,13 @@ input, select {
 .todo-container header {
     text-align: center;
     padding: 0 1rem 1rem;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #333;
 }
 
 /* Todo Form */
 #todo-form, #edit-form {
     padding: 1rem;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #333;
 }
 
 #todo-form p, #edit-form p {
@@ -86,7 +88,7 @@ input, select {
 /* Todo Toobar */
 #toolbar {
     padding: 1rem;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #333;
     display: flex;
 }
 
@@ -95,7 +97,7 @@ input, select {
 }
 
 #search {
-    border-right: 1px solid #ddd;
+    border-right: 1px solid #333;
     padding-right: 1rem;
     margin-right: 1rem;
     width: 65%;
@@ -128,7 +130,7 @@ input, select {
     justify-content: space-around;
     align-items: center;
     padding: 1rem;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #333;
     transition: 0.3s;
 }
 
@@ -142,11 +144,11 @@ input, select {
 }
 
 .done {
-    background-color: #395169;
+    background-color: #FFA000;
 }
 
 .done h3 {
-    color: #fff;
+    color: #333;
     text-decoration: line-through;
     font-style: italic;
 }
